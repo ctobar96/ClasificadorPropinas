@@ -1,52 +1,56 @@
 Reestructuracion y evaluacion
 ==============================
 
-A short description of the project.
+Breve descripción del proyecto.
 
-Project Organization
+Organización del proyecto
 ------------
 
-    ├── LICENSE
+    ├── LICENSE            <- Contiene la licencia del proyecto, especificando los términos legales 
+                            bajo los cuales se puede usar, modificar o distribuir el código.
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- Descripción del proyecto y cómo ejecutarlo.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── external       <- Datos obtenidos de fuentes externas.
+    │   ├── interim        <- Datos intermedios que han sido transformados parcialmente.
+    │   ├── processed      <- Datos transformados para entrenamiento/pruebas.
+    │   └── raw            <- Datos originales descargados.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details****
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Guarda los modelos entrenados, predicciones generadas y resúmenes 
+                            relacionados con los modelos.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Contiene cuadernos Jupyter (.ipynb) utilizados para explorar datos, 
+                            realizar análisis iniciales o documentar experimentos
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── references         <- Almacena materiales explicativos como diccionarios de datos, manuales, 
+                            documentación externa y cualquier otro recurso que ayude a entender los datos o el proyecto.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Contiene resultados generados del análisis, como informes en formato 
+                            HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Guarda gráficos y figuras generadas durante el análisis para 
+                            incluirlas en los informes.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── requirements.txt   <- Archivo que lista las dependencias necesarias para reproducir el 
+                            entorno del proyecto. Se genera típicamente con el comando pip freeze > requirements.txt. 
+                            Permite a otros instalar las mismas versiones de librerías utilizadas en el análisis.
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    ├── src                <- Contiene el código fuente del proyecto organizado por funcionalidad:
+    │   ├── __init__.py    <- La carpeta src es unmódulo de python.
     │   │
-    │   ├── data           <- Scripts to download or generate data
+    │   ├── data           <- Script para descargar, limpiar o preparar datasets.
     │   │   └── make_dataset.py
     │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   ├── features       <-  Script para crear nuevas variables o transformar las existentes.
     │   │   └── build_features.py
     │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
+    │   ├── models         <- Scripts relacionados con el entrenamiento y uso de modelos predictivos.
     │   │   ├── predict_model.py
     │   │   └── train_model.py
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │   └── visualization  <- Scripts para crear visualizaciones exploratorias o resultados finales. 
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
