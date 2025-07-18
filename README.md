@@ -29,8 +29,9 @@ pip install -r requirements.txt
 
 ## Ejecución
 Para ejecutar el proyecto 
-
-- 00_nyc_taxi_model.pynb
+```bash
+00_nyc_taxi_model.pynb
+```
 ------
 
 
