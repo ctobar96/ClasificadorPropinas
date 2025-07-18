@@ -34,13 +34,7 @@ Para ejecutar el proyecto
 ------
 
 
-
-
-
-
-
-
-Organización del proyecto
+# Organización del proyecto
 ------------
 
     ├── LICENSE            <- Contiene la licencia del proyecto, especificando los términos legales 
