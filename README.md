@@ -1,7 +1,44 @@
-Reestructuracion y evaluacion
+# Reestructuracion y evaluacion
 ==============================
 
-Breve descripción del proyecto.
+Proyecto realizado para el curso de Desarrollo de proyectos y productos de datos, impartido por el profesor Alonso Astroza. El trabajo consiste en la reestructuración y evaluación de un modelo de Machine Learning entregado por el docente.
+
+
+
+-----
+## Instalación
+
+1. Clona el respositorio 
+
+```bash
+git clone https://github.com/ctobar96/ClasificadorPropinas.git
+
+cd proyecto-clasificacion
+```
+
+2. Crea y activa un entorno virtual
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate  # Windows
+```
+
+3. Instalación de dependencias
+```bash
+pip install -r requirements.txt
+```
+
+## Ejecución
+Para ejecutar el proyecto 
+
+- 00_nyc_taxi_model.pynb
+------
+
+
+
+
+
+
+
 
 Organización del proyecto
 ------------
